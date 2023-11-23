@@ -3,9 +3,9 @@ This project was developed for the "Parallel and Distributed Systems" course at 
 
 It contains a sequential genetic algorithm for the TSP and its parallel version.
 
-- [/code](/code) contains the sequential and parallel solutions.
-- [/visualizer](/visualizer) contains a simple script to visualize the solution improvement generation after generation.
-- [report.pdf](report.pdf) describes thoroughly the design of the proposed solutions.
+- `code` contains the sequential and parallel solutions.
+- `visualizer` contains a simple script to visualize the solution improvement generation after generation.
+- `report.pdf` describes thoroughly the design of the proposed solutions.
 
 It is possible to compile and run the sequential solution as follows:
 ```
