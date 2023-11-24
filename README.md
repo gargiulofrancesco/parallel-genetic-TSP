@@ -1,4 +1,9 @@
 # Parallel Genetic Traveling Salesman Problem
+
+<p align="center">
+  <img src="genetic_agorithm_example.gif" width="55%" height="55%"/>
+</p>
+
 This project was developed for the "Parallel and Distributed Systems" course at the University of Pisa during the a.y. 2022/23.
 
 It contains a sequential genetic algorithm for the TSP and its parallel version.
@@ -21,8 +26,3 @@ g++ -pthread -O3 -o parallel parallel.cpp
 ```
 ./parallel n_cities population_size n_generations seed n_workers
 ```
-<br />
-<p align="center">
-  <img src="genetic_agorithm_example.gif" width="55%" height="55%"/>
-</p>
-
