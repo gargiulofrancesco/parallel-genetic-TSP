@@ -14,7 +14,7 @@ g++ -O3 -o sequential sequential.cpp
 ```
 ./sequential n_cities population_size n_generations seed
 ```
-It is possible to compile and run the sequential solution as follows:
+It is possible to compile and run the parallel solution as follows:
 ```
 g++ -pthread -O3 -o parallel parallel.cpp
 ```
